@@ -1,2 +1,2 @@
-# Hello-World
-My first thing
+# My Minecraft Website
+Visit to learn about Minecraft!
