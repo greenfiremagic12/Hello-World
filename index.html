@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -48,11 +49,46 @@
         	<img width=300px style="border-radius: 5px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnY-LRw2g5ziGDd0zbAJSvNtfX21_r5T_aa5Gu2cC5FVRomAAXHnusC_d68CnUJP5SkjI:https://images-na.ssl-images-amazon.com/images/I/418cEZfh8-L.jpg&usqp=CAU"><br>
         	
 		<a class="b2" href="https://www.minecraft.net" style="font-size: 100px;" target="_Blank">Click Here for Minecraft</a>
-        
-        <ul>
-            <li>Seven</li>
+        <h2 style="font-size: 100px;">Tier of Items</h2>
+        <ul style="font-size: 75px;">
+            <li>Wood</li>
+            <li>Gold</li>
+            <li>Stone</li>
+            <li>Iron</li>
+            <li>Diamond</li>
+            <li>Nethrite</li>
         </ul>
 
 		<p id="c">© Copyright ∞-1</p>
-	</body>
+	<!-- Code injected by live-server -->
+<script type="text/javascript">
+    // <![CDATA[  <-- For SVG support
+    if ('WebSocket' in window) {
+            (function() {
+                    function refreshCSS() {
+                            var sheets = [].slice.call(document.getElementsByTagName("link"));
+                            var head = document.getElementsByTagName("head")[0];
+                            for (var i = 0; i < sheets.length; ++i) {
+                                    var elem = sheets[i];
+                                    head.removeChild(elem);
+                                    var rel = elem.rel;
+                                    if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                                    }
+                                    head.appendChild(elem);
+                            }
+                    }
+                    var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                    var address = protocol + window.location.host + window.location.pathname + 'ws';
+                    var socket = new WebSocket(address);
+                    socket.onmessage = function(msg) {
+                            if (msg.data == 'reload') window.location.reload();
+                            else if (msg.data == 'refreshcss') refreshCSS();
+                    };
+                    console.log('Live reload enabled.');
+            })();
+    }
+    // ]]>
+</script></body>
 </html>
