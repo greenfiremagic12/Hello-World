@@ -12,21 +12,47 @@
 			#c {
 				font-size: 100px;
 			}
-            p {
+            p, ul {
 				font-size: 30px;
 			}
+            button {
+                border-radius: 5px;
+                font-size: 100px;
+                color: lime;
+                background-color: black;
+                border-style: outset;
+                border-width: 10px;
+                border-color: white;
+                margin-bottom: 100px;
+                padding: 30px;
+            }
+            a:visited.b1 {
+                color: lime;
+            }
+            a:visited.b2 {
+                color: black;
+            }
+            ul {
+                list-style-position: inside;
+            }
 		</style>
 	</head>
 	<body>
 		<h1 style="font-size: 100px; text-align: center; color: lime;">My Minecraft Website</h1>
 		
 		<p>Minecraft is a very fun sandbox game. You have to break materials to break better materials. You can kill mobs to get some items. 
-		You have to kill the Ender Dragon. It is very hard.</p>
+		You have to kill the Ender Dragon. It is very hard.</p><br>
+
+        <button><a class="b1" href="https://www.google.com" target="_Blank">Click Me For Free Minecraft</a></button><br>
 		
-        	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnY-LRw2g5ziGDd0zbAJSvNtfX21_r5T_aa5Gu2cC5FVRomAAXHnusC_d68CnUJP5SkjI:https://images-na.ssl-images-amazon.com/images/I/418cEZfh8-L.jpg&usqp=CAU"><br>
+        	<img width=300px style="border-radius: 5px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnY-LRw2g5ziGDd0zbAJSvNtfX21_r5T_aa5Gu2cC5FVRomAAXHnusC_d68CnUJP5SkjI:https://images-na.ssl-images-amazon.com/images/I/418cEZfh8-L.jpg&usqp=CAU"><br>
         	
-		<a href="https://www.minecraft.net" style="font-size: 100px;" target="_Blank">Click Here for Minecraft</a>
-        	
+		<a class="b2" href="https://www.minecraft.net" style="font-size: 100px;" target="_Blank">Click Here for Minecraft</a>
+        
+        <ul>
+            <li>Seven</li>
+        </ul>
+
 		<p id="c">© Copyright ∞-1</p>
 	</body>
 </html>
